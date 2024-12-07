@@ -1,0 +1,44 @@
+// Problem Tanımı
+// Bir hastane, doktorlar, hastalar ve randevular arasında etkileşimi kolaylaştırmak
+//  için bir yazılım geliştirmek istiyor. Sistem, doktor ve hasta bilgilerini saklamalı, 
+//  randevu oluşturma ve iptal işlemlerini yönetebilmeli ve geçmiş randevu bilgilerini 
+//  görüntüleyebilmelidir.
+
+// Hedefler
+// Kullanıcı Tipleri: Doktorlar ve hastalar arasında ayırım yapılması.
+// Randevu İşlemleri: Randevu oluşturma, ve görüntüleme.
+// Bilgi Yönetimi: Doktorların uzmanlık alanları ve hastaların tıbbi geçmişi gibi bilgilerin saklanması.
+// Hataların Yönetimi: Kullanıcı hatalarının engellenmesi ve bilgilendirilmesi.
+
+// Doktor ve Hasta Bilgileri Sabit Listelerle Saklanıyor
+doctors = ["1: Dr. Ayşe Yılmaz - Kardiyoloji", "2: Dr. Mehmet Kaya - Nöroloji"]
+patients = ["1: Ahmet Demir - Hipertansiyon", "2: Elif Çelik - Migren"]
+appointments = []  // Randevu Listesi
+
+FUNCTION HospitalSystem()
+    loop while  TRUE:
+        print("1: Doktor Listesini Görüntüle") 
+        print( "2: Hasta Listesini Görüntüle")
+        print("3: Randevu Oluştur") 
+        print("4: Randevu Listesini Görüntüle") 
+        print("5: Sistemden Çık") 
+        choice = input("Seçeneğiniz nedir? ") 
+
+        if choice == 1:
+       
+        else if choice == 2:
+         
+
+        else if choice == 3:
+           
+
+        else if choice == 4:
+           
+        else if choice == 5:
+            print("Sistemden Çıkılıyor...") 
+            BREAK
+
+        else:
+            print( "Geçersiz seçim! Lütfen tekrar deneyin.")
+    END loop 
+END FUNCTION
